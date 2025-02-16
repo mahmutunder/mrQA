@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   
+
+}
+
+.main{
+    background:url("bkg.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    gap: 40;
+   
+}
+
+.main h1{
+    background-color: rgb(55, 87, 116);
+    width: 100%;
+    padding: 15px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 5px;
+    color: aliceblue;
+    text-shadow: 1px 1px 1px black;
+    box-shadow: 2px 1px 1px rgb(131, 5, 5);
+    font-size: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main ul{
+    list-style: none;
+}
+.main ul li{
+    padding: 10px;
+    font-size: 24px;
+    margin-top: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.main ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    transition: 1s;
+    animation: start 1s infinite;
+ 
+
+}
+@keyframes start{
+    0%{
+        text-decoration: underline;
+        text-decoration-color:rgb(8, 118, 17);
+      
+    }
+  
+}
+
+.main ul li:hover{
+    background-color:  rgb(8, 118, 17);
+    border-radius: 10px;
+    transition: 0.5s;
+
+
+}

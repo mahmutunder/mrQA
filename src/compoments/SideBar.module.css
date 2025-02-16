@@ -1,0 +1,28 @@
+ .side{
+    background-color: gold;
+    width: 250px;
+    height: 86vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.side button{
+    background-color: rgb(2, 35, 99);
+    font-size: 20px;
+    width: 150px;
+    padding: 10px;
+    color: aliceblue;
+    border-left: rgb(205, 10, 121) 5px solid;
+}
+
+.side button:hover {
+    background-color:  rgb(205, 10, 121);
+    transition: 0.5s;
+}
+
+.layOut{
+    display: flex;
+}

@@ -1,0 +1,37 @@
+.nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(2, 35, 99);
+  padding: 10px;
+  font-size: 20px;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color: gold;
+
+
+}
+
+.nav ul li {
+  padding: 10px;
+
+  
+}
+
+.nav ul li:hover {
+  background-color: rgb(41, 82, 162);
+}
+.top{
+    background-color: rgb(41, 82, 162);
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+}
+li :global(.active) {
+  background-color: rgb(41, 82, 162);
+  padding: 10px;
+  border-radius: 10px;
+  transition: 0.5s;
+}
