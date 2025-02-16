@@ -15,10 +15,13 @@ function NavBar() {
           <NavLink to="/src/react">React</NavLink>
         </li>
         <li>
-          <NavLink to="/src/git">Git commends</NavLink>
+          <NavLink to="/src/git">Git commands </NavLink>
         </li>
         <li>
           <NavLink to="/src/apiStatusCode">API Status Code</NavLink>
+        </li>
+        <li>
+          <NavLink to="/src/selenium">Selenium</NavLink>
         </li>
       </ul>
     </nav>

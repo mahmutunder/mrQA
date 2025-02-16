@@ -4,8 +4,8 @@ import styles from "./SideBar.module.css";
 import Explanation from "./Explanation";
 
 function SideBar() {
+    const navigate = useNavigate();
   const { data } = useDataContext();
-  const navigate = useNavigate();
   const { subject } = useParams();
 
   console.log(data["subElements"]);
@@ -14,7 +14,7 @@ function SideBar() {
       <div className={styles.layOut}>
         <aside className={styles.side}>
           {!data ? (
-            <p>No dataeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
+            <p>No data</p>
           ) : (
             data["subElements"]?.map((el) => (
               <button

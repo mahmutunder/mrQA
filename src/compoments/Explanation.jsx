@@ -5,12 +5,18 @@ import { useDataContext } from "../contexts/PostContext";
 
 function Explanation() {
     const {data}=useDataContext();
+    const { subject } = useParams();
+  
+    console.log(data["subElements"]);
     // console.log("here",(data['explanations'])['div'])
     const {subElement}=useParams();
     return (
-        <div className={styles.rightSide}>
 
-            {subElement ? (data['explanations'])[subElement] :"select element"}
+        <div className={styles.rightSide}>
+           
+            <h1>{subElement ? subElement?.toUpperCase() : "hello"}</h1>
+
+            {subElement ?  (data['explanations'])[subElement] :"select element"}
         </div>
     )
 }
