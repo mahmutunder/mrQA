@@ -7,7 +7,7 @@ function Header() {
   return (
     <header>
       <div className={styles.top}>
-        <h1>Learning {subject ? subject.toUpperCase() : ""}</h1>
+        <h1>📚 Learning {subject ? subject.toUpperCase() : ""}</h1>
       </div>
       <div>
         <NavBar />

@@ -5,7 +5,7 @@ import { useDataContext } from "../contexts/PostContext";
 
 function Explanation() {
     const {data}=useDataContext();
-    const { subject } = useParams();
+
   
     console.log(data["subElements"]);
     // console.log("here",(data['explanations'])['div'])

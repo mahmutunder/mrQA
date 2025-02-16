@@ -1,37 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
 .nav ul {
   list-style: none;
   display: flex;
-  justify-content: center;
+  /* justify-content: center; */
   background-color: rgb(2, 35, 99);
   padding: 10px;
   font-size: 20px;
+  box-sizing: border-box;
 }
 
 .nav ul li a {
   text-decoration: none;
   color: gold;
-
-
 }
 
-.nav ul li {
+/* .nav ul li {
   padding: 10px;
+  margin-left: 10px;
+  box-sizing: border-box;
+} */
 
-  
+.nav ul li {
+  display: inline-block;
+  padding: 8px 12px;
+  margin: 0 5px;
 }
 
 .nav ul li:hover {
   background-color: rgb(41, 82, 162);
 }
-.top{
-    background-color: rgb(41, 82, 162);
-    color: aliceblue;
-    text-align: center;
-    padding: 10px;
-}
-li :global(.active) {
+.top {
   background-color: rgb(41, 82, 162);
+  color: aliceblue;
+  text-align: center;
   padding: 10px;
-  border-radius: 10px;
-  transition: 0.5s;
+}
+.nav ul li .active {
+  background-color: rgb(41, 82, 162); 
+  padding: 8px 12px; 
+  border-radius: 5px; 
+  transition: background-color 0.3s ease-in-out;
+}
+
+li :global(.active) {
+  border-bottom: 3px solid rgb(155, 5, 97);
+  border-radius: 5px;
+  transition: background-color 0.3s ease-in-out;
+  animation: activeLink infinite 1s ease-in-out;
+}
+
+@keyframes activeLink{
+  0%{
+    border-bottom: 6px solid rgb(207, 6, 130);
+  }
+  100%{
+    border-bottom: 0px solid rgb(155, 5, 97);
+  }
 }

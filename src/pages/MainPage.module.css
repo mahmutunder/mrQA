@@ -1,0 +1,32 @@
+.layout{
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(12, 1fr);
+    height: 100vh; 
+}
+
+.headLayout{
+    grid-column: 1/13;
+    grid-row: 1/2;
+   
+}
+
+.leftSide{
+    grid-column: 1/3;
+    grid-row: 2/13;
+    border: 1px solid black;
+    overflow-y: auto;
+}
+
+
+.explanation{
+    grid-column: 3/8;
+    grid-row: 2/13;
+    border: 1px solid black;
+}
+
+.test{
+    grid-column: 6/13;
+    grid-row: 2/13;
+    border: 1px solid black;
+}

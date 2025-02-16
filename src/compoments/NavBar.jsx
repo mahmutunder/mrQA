@@ -1,27 +1,27 @@
 import { NavLink } from "react-router-dom";
-import styles from './NavBar.module.css'
+import styles from "./NavBar.module.css";
 
 function NavBar() {
   return (
     <nav className={styles.nav}>
       <ul>
         <li>
-          <NavLink to="/src/html">HTML</NavLink>
+          <NavLink to="/src/html">👉 HTML</NavLink>
         </li>
         <li>
-          <NavLink to="/src/js">JavaScript</NavLink>
+          <NavLink to="/src/js">👉 JavaScript</NavLink>
         </li>
         <li>
-          <NavLink to="/src/react">React</NavLink>
+          <NavLink to="/src/react">👉 React</NavLink>
         </li>
         <li>
-          <NavLink to="/src/git">Git commands </NavLink>
+          <NavLink to="/src/git">👉 Git commands </NavLink>
         </li>
         <li>
-          <NavLink to="/src/apiStatusCode">API Status Code</NavLink>
+          <NavLink to="/src/apiStatusCode">👉 API Status Code</NavLink>
         </li>
         <li>
-          <NavLink to="/src/selenium">Selenium</NavLink>
+          <NavLink to="/src/selenium">👉 Selenium</NavLink>
         </li>
       </ul>
     </nav>

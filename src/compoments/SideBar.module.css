@@ -1,32 +1,32 @@
- .side{
-    background-color: gold;
-    width: 250px;
-    height: 86vh;
-    display: flex;
- 
-    align-items: center;
-    flex-direction: column;
-    gap: 10px;
-    overflow: auto;   
- 
-    
+.side {
+  background-color: gold;
+height: 100%;
+
+  display: flex;
+
+  /* align-items: center; */
+  flex-direction: column;
+  gap: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
 }
 
-.side button{
-    background-color: rgb(2, 35, 99);
-    font-size: 20px;
-    width: 150px;
-    padding: 10px;
-    color: aliceblue;
-    border-left: rgb(205, 10, 121) 5px solid;
+.side button {
+   background-color: rgb(2, 35, 99);
+  font-size: 20px;
 
+  padding: 10px;
+  color: aliceblue;
+  border-left: rgb(205, 10, 121) 5px solid; 
 }
 
 .side button:hover {
-    background-color:  rgb(205, 10, 121);
-    transition: 0.5s;
+  background-color: rgb(205, 10, 121);
+  transition: 0.5s;
 }
 
-.layOut{
-    display: flex;
+.side h4, .side h2{
+ background-color: aqua;
+ padding: 10px;
+ text-align: center;
 }
