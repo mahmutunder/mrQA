@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import MainPage from "./pages/MainPage";
 import HomePage from "./pages/HomePage";
+import ErrorPage from "./pages/ErrorPage";
 
 function App() {
   return (
@@ -10,7 +11,7 @@ function App() {
         <Route path="/src" element={<MainPage />} />
         <Route path="/src/:subject" element={<MainPage />} />
         <Route path="/src/:subject/:subElement" element={<MainPage />} />
-        <Route path="*" element={<p>404 you are in the wrong places</p>} />
+        <Route path="*" element={<ErrorPage/>} />
       </Routes>
     </>
   );

@@ -9,6 +9,8 @@ height: 100%;
   gap: 10px;
   overflow-y: auto;
   overflow-x: hidden;
+  
+
 }
 
 .side button {
@@ -29,4 +31,36 @@ height: 100%;
  background-color: aqua;
  padding: 10px;
  text-align: center;
+}
+
+ .active{
+  background-color: rgb(205, 10, 121) !important;
+  border-left: rgb(63, 250, 151) 5px solid  !important;; 
+}
+
+.active::before{
+  content: "👉 ";
+}
+
+
+/* Customize the entire scrollbar */
+::-webkit-scrollbar {
+  width: 10px;  /* Width of the scrollbar */
+}
+
+/* Track (the area behind the scrollbar) */
+::-webkit-scrollbar-track {
+  background: #0a0a23;  /* Dark background for the track */
+  border-radius: 5px;
+}
+
+/* Handle (the draggable scrolling part) */
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(45deg, gold, rgb(169, 190, 222)); /* Gradient effect */
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 200, 0);
 }
