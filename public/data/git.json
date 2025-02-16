@@ -1,0 +1,38 @@
+{
+    "subElements": [
+      "git init", "git clone", "git add", "git commit", "git push", "git pull",
+      "git branch", "git checkout", "git switch", "git merge", "git rebase",
+      "git status", "git log", "git diff", "git reset", "git revert",
+      "git stash", "git tag", "git remote", "git fetch", "git cherry-pick",
+      "git reflog", "git bisect", "git show", "git config", "git blame"
+    ],
+    "explanations": {
+      "git init": "Initializes a new Git repository in the current directory.",
+      "git clone": "Creates a local copy of a remote repository.",
+      "git add": "Stages changes for the next commit (e.g., 'git add .' to stage all files).",
+      "git commit": "Saves staged changes with a commit message (e.g., 'git commit -m \"Initial commit\"').",
+      "git push": "Uploads local commits to a remote repository (e.g., 'git push origin main').",
+      "git pull": "Fetches and merges changes from a remote repository (e.g., 'git pull origin main').",
+      "git branch": "Lists, creates, or deletes branches (e.g., 'git branch feature-branch').",
+      "git checkout": "Switches to a different branch or commit (e.g., 'git checkout main').",
+      "git switch": "Switches branches in a simpler way than 'checkout' (e.g., 'git switch main').",
+      "git merge": "Merges changes from one branch into another (e.g., 'git merge feature-branch').",
+      "git rebase": "Moves or combines commits from one branch onto another (e.g., 'git rebase main').",
+      "git status": "Displays the state of the working directory and staging area.",
+      "git log": "Shows commit history (e.g., 'git log --oneline' for a condensed view).",
+      "git diff": "Shows changes between commits, branches, or files (e.g., 'git diff HEAD').",
+      "git reset": "Resets the current branch to a previous commit (e.g., 'git reset --hard HEAD~1').",
+      "git revert": "Creates a new commit that undoes a previous commit without changing history.",
+      "git stash": "Temporarily saves changes without committing them (e.g., 'git stash save \"message\"').",
+      "git tag": "Creates or lists tags for marking specific commits (e.g., 'git tag v1.0').",
+      "git remote": "Manages remote repository connections (e.g., 'git remote -v' to list remotes).",
+      "git fetch": "Downloads changes from a remote repository but doesn't merge them.",
+      "git cherry-pick": "Applies a specific commit from one branch to another (e.g., 'git cherry-pick <commit-hash>').",
+      "git reflog": "Shows a history of all recent HEAD movements.",
+      "git bisect": "Finds a commit that introduced a bug by performing a binary search.",
+      "git show": "Displays detailed information about a commit or object.",
+      "git config": "Configures Git settings like user name and email (e.g., 'git config --global user.name \"John Doe\"').",
+      "git blame": "Shows who last modified each line of a file and when."
+    }
+  }
+  

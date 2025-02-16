@@ -17,6 +17,9 @@ function NavBar() {
         <li>
           <NavLink to="/src/git">Git commends</NavLink>
         </li>
+        <li>
+          <NavLink to="/src/apiStatusCode">API Status Code</NavLink>
+        </li>
       </ul>
     </nav>
   );
