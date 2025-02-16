@@ -12,7 +12,7 @@ function PostProvider({ children }) {
     function getData() {
       async function fetchData() {
         try {
-          const res = await fetch(`/data/${subject}.json`);
+          const res = await fetch(`/myQA/${subject}.json`);
           const datas = await res.json();
           setData(datas);
         } catch (error) {
