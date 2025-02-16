@@ -12,7 +12,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
+height: 100vh;
   display: flex;
   justify-content: start;
   align-items: center;
@@ -47,7 +47,7 @@ body {
 }
 .main ul li a {
   text-decoration: none;
-  color: rgb(5, 5, 85);
+  color: aliceblue;
   transition: 1s;
   animation: start 1s infinite;
 }
